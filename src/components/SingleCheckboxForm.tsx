@@ -6,13 +6,13 @@ export const SingleCheckboxForm = () => {
   return (
     <div>
       <pre>
-        <code>フォームの値：{JSON.stringify(watch('multiple'))}</code>
+        <code>フォームの値：{JSON.stringify(watch('single'))}</code>
       </pre>
 
       <form>
         <fieldset>
           <label>
-            <input {...register('multiple')} type="checkbox" value="foo" />
+            <input {...register('single')} type="checkbox" value="foo" />
             foo
           </label>
         </fieldset>
